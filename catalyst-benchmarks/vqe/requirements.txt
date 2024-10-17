@@ -1,0 +1,12 @@
+# Standard requirements
+matplotlib
+numpy
+pandas
+pytest
+pytest
+pytest-benchmark
+
+# VQE-specific requirements
+aiohttp
+fsspec
+h5py

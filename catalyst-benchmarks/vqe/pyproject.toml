@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+markers = [
+    "fast: marks tests as fast (deselect with '-m \"not fast\"')",
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "pennylane: marks tests as native PennyLane without Catalyst compilation (deselect with '-m \"not pennylane\"')",
+    "catalyst: marks execution-only tests as compiled with catalyst (deselect with '-m \"not catalyst\"')",
+    "catalyst_compilation: marks tests (compilation and execution) as compiled with catalyst (deselect with '-m \"not catalyst\"')",
+    "large_scale: marks tests as large scale footprint tests (deselect with '-m \"not large_scale\"')",
+    "warmup: marks tests that serve as warmup for others",
+]
