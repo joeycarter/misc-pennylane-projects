@@ -13,4 +13,4 @@ benchmarks:
 
 # Make plots
 plots:
-	python3 plot.py vqe_benchmark.py -v
+	python3 plot.py vqe_benchmarks.json -v
