@@ -10,3 +10,6 @@ pytest-benchmark
 aiohttp
 fsspec
 h5py
+
+# XAS-specific requirements
+pyscf
