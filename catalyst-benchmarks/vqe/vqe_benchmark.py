@@ -96,8 +96,8 @@ fast_indices = 4
 extra_fast_indices = 2
 
 # it_maxs = list(range(10, 101, 10))
-# it_maxs = [10, 50, 100, 200, 300, 400, 500]
-it_maxs = [10]
+it_maxs = [10, 50, 100, 200, 300, 400, 500]
+# it_maxs = [10]
 
 @pytest.mark.fast
 @pytest.mark.pennylane
