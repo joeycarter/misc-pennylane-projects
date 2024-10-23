@@ -71,7 +71,7 @@ def parse_benchmarks(
         if index_ not in df_dict:
             df_dict[index_] = {}
 
-        key = "-".join(params_.keys())
+        key = "-".join(params_.values())
 
         df_dict[index_][(key, mode, "mean")] = benchmark["stats"]["mean"]
         df_dict[index_][(key, mode, "stderr")] = benchmark["stats"]["stddev"] / np.sqrt(
