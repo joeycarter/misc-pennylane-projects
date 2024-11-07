@@ -1,5 +1,6 @@
 import math
 
+import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 
@@ -13,6 +14,9 @@ def plot_colourtable(colours, name):
         colors (list[str]): List of colour hex codes
 
     """
+
+    matplotlib.rcParams["font.family"] = "quicksand"
+    matplotlib.rcParams["mathtext.fontset"] = "quicksand"
 
     cell_width = 212
     cell_height = 22
